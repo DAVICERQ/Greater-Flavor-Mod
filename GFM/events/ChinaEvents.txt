@@ -2527,6 +2527,652 @@ country_event = {
     }
 }
 
+country_event = {
+    id = 164509
+    title = "EVTNAME164509"
+    desc = "EVTDESC164509"
+    fire_only_once = yes
+    picture = "chinese_famine_1907"
+
+    trigger = {
+        year = 1907
+		tag = QNG
+		NOT = { has_global_flag = 1907_chinese_famine }
+    }
+
+    mean_time_to_happen = { months = 3 }
+
+    option = {
+        name = "EVT164509OPTA"
+        set_global_flag = 1907_chinese_famine
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1540
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1541
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1543
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1536
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1542
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1522
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1516
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1517
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1518
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1510
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1511
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1513
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1515
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1508
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1509
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1512
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1514
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1477
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1474
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1476
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1472
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1478
+                    }
+                }
+				reduce_pop = 0.90
+				consciousness = {
+					factor = 5
+				}
+				militancy = {
+					factor = 3
+				}
+        }
+		
+    }
+	
+	option = {
+        name = "EVT164509OPTB"
+        set_global_flag = 1907_chinese_famine
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1540
+						
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1541
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1543
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1536
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1542
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1522
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1516
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1517
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1518
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1510
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1511
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1513
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1515
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1508
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1509
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1512
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1514
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1477
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1474
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1476
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1472
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		any_pop = {
+                limit = {
+                    location = {
+                        province_id = 1478
+                    }
+                }
+				reduce_pop = 0.99
+				consciousness = {
+					factor = 2
+				}
+				militancy = {
+					factor = -1
+				}
+        }
+		money = -100000
+		
+    }
+}
+
 #################################################################################################################
 #                                                                                                                #
 #                                                   First Opium War                                                #
@@ -9137,4 +9783,3 @@ country_event = {
         }
     }
 }
-
