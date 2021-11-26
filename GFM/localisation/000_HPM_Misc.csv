@@ -268,6 +268,6 @@ forth_bridge_construction_desc;The Forth Bridge was built to pass over the Firth
 victoria_bridge_construction_title;Build the Victoria Bridge;;;;;;;;;;;;;
 victoria_bridge_construction_desc;The Victoria Bridge was built to pass over the St. Lawrence River, and connected Montreal with Saint-Lambert. The bridge was approximately 3 kilometres (1.9 mi) long, and it's name honoring Queen Victoria. It's an emblem of Canada to this day, being the first bridge to cross the Saint Lawrence, and facilitating the crossing of the river in winter.;;;;;;;;;;;;;
 EVTNAME164509;The 1907 $COUNTRY_ADJ$ Famine;;;;;;;;;;;;;
-EVTDESC164509;In 1906, heavy rains in the growing season destroyed our crops. Now that the crops should be harvested, they aren't enough to prevent a famine in the area.
+EVTDESC164509;In 1906, heavy rains in the growing season destroyed our crops. Now that the crops should be harvested, they aren't enough to prevent a famine in the area.;;;;;;;;;;;;;
 EVT164509OPTA;We won't help them.;;;;;;;;;;;;;
 EVT164509OPTB;We will give monetary aid to the affected regions for their recuperation.;;;;;;;;;;;;;
