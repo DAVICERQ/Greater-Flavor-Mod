@@ -319,13 +319,13 @@
     serfs = {
         culture = ukrainian
         religion = orthodox
-        size = 49705
+        size = 51705
     }
 	
 	serfs = {
         culture = dolinyan
         religion = orthodox
-        size = 33340
+        size = 31340
     }
 	
 	serfs = {

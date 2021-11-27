@@ -917,7 +917,7 @@
     serfs = {
         culture = boyko
         religion = orthodox
-        size = 1000
+        size = 2000
     }
 	
 	clergymen = {
@@ -941,6 +941,6 @@
     serfs = {
         culture = lemko
         religion = orthodox
-        size = 12200
+        size = 11200
     }
 }
