@@ -851,19 +851,19 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 4625
+        size = 3625
     }
 
     farmers = {
         culture = slovak
         religion = catholic
-        size = 8900
+        size = 7900
     }
 
     farmers = {
         culture = goral
         religion = catholic
-        size = 3000
+        size = 2000
     }
 
     aristocrats = {
@@ -941,6 +941,6 @@
     serfs = {
         culture = lemko
         religion = orthodox
-        size = 12200
+        size = 14200
     }
 }
