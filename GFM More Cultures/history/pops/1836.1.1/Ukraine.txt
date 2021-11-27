@@ -319,7 +319,19 @@
     serfs = {
         culture = ukrainian
         religion = orthodox
-        size = 85650
+        size = 51705
+    }
+	
+	serfs = {
+        culture = dolinyan
+        religion = orthodox
+        size = 31340
+    }
+	
+	serfs = {
+        culture = hutsul
+        religion = orthodox
+        size = 2495
     }
 }
 3332 = {
@@ -344,7 +356,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 15825
+        size = 15425
     }
 
     aristocrats = {
@@ -398,7 +410,7 @@
     farmers = {
         culture = hungarian
         religion = protestant
-        size =  38950
+        size =  38350
     }
 
     clergymen = {
@@ -470,7 +482,13 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 13975
+        size = 13575
+    }
+	
+	farmers = {
+        culture = dolinyan
+        religion = orthodox
+        size = 1425
     }
 }
 #Galicia Region (2576000) #see Poland.txt for balance of region
@@ -626,7 +644,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 47475
+        size = 40475
     }
 
     aristocrats = {
@@ -656,7 +674,13 @@
     serfs = {
         culture = polish
         religion = catholic
-        size = 34025
+        size = 29025
+    }
+	
+	serfs = {
+        culture = boyko
+        religion = orthodox
+        size = 12495
     }
 
     clergymen = {
@@ -847,7 +871,7 @@
     farmers = {
         culture = ukrainian
         religion = orthodox
-        size = 48325
+        size = 45225
     }
 
     serfs = {
@@ -883,7 +907,13 @@
     serfs = {
         culture = polish
         religion = catholic
-        size = 28550
+        size = 26020
+    }
+	
+	serfs = {
+        culture = boyko
+        religion = catholic
+        size = 5630
     }
 
     clergymen = {

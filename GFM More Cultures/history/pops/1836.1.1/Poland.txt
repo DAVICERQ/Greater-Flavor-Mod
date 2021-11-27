@@ -2636,7 +2636,13 @@
     farmers = {
         culture = goral
         religion = catholic
-        size = 44000
+        size = 35100
+    }
+	
+	farmers = {
+        culture = lemko
+        religion = orthodox
+        size = 8900
     }
 
     serfs = {
@@ -3177,13 +3183,25 @@
     farmers = {
         culture = polish
         religion = catholic
-        size = 31000
+        size = 29600
     }
 
     farmers = {
         culture = goral
         religion = catholic
         size = 6000
+    }
+	
+	serfs = {
+        culture = boyko
+        religion = orthodox
+        size = 1630
+    }
+	
+	serfs = {
+        culture = lemko
+        religion = orthodox
+        size = 5100
     }
 
     serfs = {
@@ -3195,7 +3213,7 @@
     serfs = {
         culture = ukrainian
         religion = orthodox
-        size = 43000
+        size = 37775
     }
 
     clergymen = {
