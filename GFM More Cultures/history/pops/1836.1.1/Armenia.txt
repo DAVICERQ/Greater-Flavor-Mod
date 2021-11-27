@@ -59,7 +59,13 @@
     farmers = {
         culture = armenian
         religion = coptic
-        size = 11750
+        size = 11550
+    }
+
+    farmers = {
+        culture = molokan
+        religion = orthodox
+        size = 200
     }
 
     farmers = {
@@ -170,7 +176,13 @@
     farmers = {
         culture = mashriqi
         religion = shiite
-        size = 12000
+        size = 8000
+    }
+	
+	farmers = {
+        culture = marsh_arab
+        religion = shiite
+        size = 4000
     }
 
     aristocrats = {
@@ -285,7 +297,13 @@
     farmers = {
         culture = armenian
         religion = coptic
-        size = 13700
+        size = 13125
+    }
+
+    farmers = {
+        culture = molokan
+        religion = orthodox
+        size = 400
     }
 
     farmers = {
@@ -346,6 +364,12 @@
         culture = georgian
         religion = orthodox
         size = 925
+    }
+
+    farmers = {
+        culture = urum
+        religion = orthodox
+        size = 175
     }
 
     farmers = {

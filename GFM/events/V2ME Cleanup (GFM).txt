@@ -798,6 +798,16 @@ country_event = {
 			annex_to = FROM
 		}
 		
+		#japan modifier check
+		CLN = { clr_country_flag = japan_has_been_pressured }
+		any_country = {
+			limit = {
+				exists = yes
+				has_country_modifier = pressuring_japan
+			}
+			CLN = { set_country_flag = japan_has_been_pressured }
+		}
+		
 		#colonial organization/african prospecting monthly checks
 		
 		#nigeria
@@ -863,6 +873,7 @@ country_event = {
 						machine_guns = 1
 						NOT = {
 							has_global_flag = nigeria_organized
+							has_country_flag = nigeria_master
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
 							capital_scope = { continent = central_africa }
@@ -948,6 +959,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = togo_master
 							has_global_flag = togo_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1035,6 +1047,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = ivc_master
 							has_global_flag = ivory_coast_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1118,6 +1131,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = sierra_leone_master
 							has_global_flag = sierra_leone_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1208,6 +1222,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = guinea_master
 							has_global_flag = guinea_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1300,6 +1315,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = senegal_master
 							has_global_flag = senegal_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1383,6 +1399,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = niger_master
 							has_global_flag = niger_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1463,6 +1480,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = chad_master
 							has_global_flag = chad_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1546,6 +1564,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = cameroon_master
 							has_global_flag = cameroon_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1632,6 +1651,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = gabon_master
 							has_global_flag = gabon_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1730,6 +1750,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = congo_master
 							has_global_flag = congo_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1864,6 +1885,7 @@ country_event = {
 						machine_guns = 1
 						NOT = { has_country_flag = not_congo_primary_culture }
 						NOT = {
+							has_country_flag = zaire_master
 							has_global_flag = zaire_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -1958,6 +1980,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = zambia_master
 							has_global_flag = zambia_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -3331,6 +3354,7 @@ country_event = {
 						machine_guns = 1
 						NOT = {
 							has_global_flag = ghana_organized
+							has_country_flag = ghana_master
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
 							capital_scope = { continent = central_africa }
@@ -3427,6 +3451,7 @@ country_event = {
 						machine_guns = 1
 						NOT = {
 							has_global_flag = burkina_faso_organized
+							has_country_flag = burkina_master
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
 							capital_scope = { continent = central_africa }
@@ -3549,6 +3574,7 @@ country_event = {
 						machine_guns = 1
 						NOT = {
 							has_global_flag = dahomey_organized
+							has_country_flag = dahomey_master
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
 							capital_scope = { continent = central_africa }
@@ -3642,7 +3668,7 @@ country_event = {
 			random_owned = {
 				limit = {
 					owner = {
-						NOT = { has_global_flag = indonesia_organized }
+						NOT = { has_global_flag = indonesia_organized has_country_flag = indonesia_master }
 					}
 				}
 				owner = {
@@ -3809,7 +3835,7 @@ country_event = {
 			random_owned = {
 				limit = {
 					owner = {
-						NOT = { has_global_flag = timor_organized }
+						NOT = { has_global_flag = timor_organized has_country_flag = timor_master }
 					}
 				}
 				owner = {
@@ -3858,7 +3884,7 @@ country_event = {
 			random_owned = {
 				limit = {
 					owner = {
-						NOT = { has_global_flag = namibia_organized }
+						NOT = { has_global_flag = namibia_organized has_country_flag = namibia_master }
 					}
 				}
 				owner = {
@@ -3929,7 +3955,7 @@ country_event = {
 			random_owned = {
 				limit = {
 					owner = {
-						NOT = { has_global_flag = lebanon_organized }
+						NOT = { has_global_flag = lebanon_organized has_country_flag = lebanon_organizer }
 					}
 				}
 				owner = {
@@ -4086,6 +4112,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = guine_bissau_master
 							has_global_flag = guine_bissau_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -4174,6 +4201,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = madagascar_master
 							has_global_flag = madagascar_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -4255,6 +4283,7 @@ country_event = {
 					owner = {
 						machine_guns = 1
 						NOT = {
+							has_country_flag = zimbabwe_master
 							has_global_flag = zimbabwe_organized
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
@@ -4341,6 +4370,7 @@ country_event = {
 						machine_guns = 1
 						NOT = {
 							has_global_flag = rwanda_burundi_organized
+							has_country_flag = rwanda_burundi_master
 							capital_scope = { continent = africa }
 							capital_scope = { continent = west_africa }
 							capital_scope = { continent = central_africa }

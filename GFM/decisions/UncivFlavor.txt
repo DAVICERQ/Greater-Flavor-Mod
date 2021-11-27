@@ -59,16 +59,19 @@ political_decisions = {
     annals_of_the_fulani_jihad = {
         picture = annals_of_the_fulani_jihad
         potential = {
-            tag = SOK
+            OR = {
+				tag = SOK
+				tag = TOU
+			}
             NOT = {
-                has_country_flag = that_book_written
+                has_global_flag = that_book_written
             }
         }
         allow = {
             literacy = 0.04
         }
         effect = {
-            set_country_flag = that_book_written
+            set_global_flag = that_book_written
             prestige = 2
             years_of_research = 0.5
         }
@@ -301,44 +304,8 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 
-    eth_mission_to_cairo = {
-        potential = {
-            tag = ETH
-            ai = yes
-            EGY = {
-                ai = yes
-                exists = yes
-                neighbour = ETH
-                NOT = {
-                    any_owned_province = { is_core = ETH }
-                    casus_belli = ETH
-                }
-            }
-            NOT = {
-                has_country_flag = mission_to_cairo
-                any_owned_province = { is_core = EGY }
-                any_owned_province = { is_core = SUD }
-                casus_belli = EGY
-                truce_with = EGY
-            }
-        }
-
-        allow = {
-            NOT = { war_with = EGY }
-        }
-
-        effect = {
-            set_country_flag = mission_to_cairo
-            relation = { who = EGY value = 200 }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-
     unite_somalia = {
-    picture = unite_somalia
+		picture = unite_somalia
         potential = {
             OR = {
                 tag = GEL

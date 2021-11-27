@@ -29,6 +29,23 @@ economic_malaise = {
 
 }
 
+resistance_to_new_regime = { 
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
+	rgo_output = 0.2
+	cb_generation_speed_modifier = -0.3
+	icon = 4
+}
+
+bushiguntai_enacted = { 
+	org_regain = -0.1
+    land_organisation = 0.1
+    land_unit_start_experience = 5
+    supply_consumption = -0.05
+    mobilisation_size = -0.2
+    icon = 15
+}
+
 transisthmian_trade = {
     local_RGO_output = 0.8
     local_RGO_throughput = 0.8
@@ -1695,7 +1712,7 @@ congo_company = {
 
 congo_exploitation = {
     immigrant_push = -1
-    population_growth = -0.01
+    population_growth = -0.001
     farm_rgo_eff = 0.2
     farm_rgo_size = 1
     mine_rgo_eff = 0.2
@@ -1833,6 +1850,7 @@ pandemic_influenza = {
     global_pop_consciousness_modifier = 0.1
     icon = 18
 }
+
 
 pandemic_influenza_immunity = {
     population_growth = 0.01
@@ -1983,6 +2001,13 @@ the_eiffel_tower = {
 rhine_crisis = {
     badboy = 0.01
     icon = 6
+}
+
+rheinbegradigt = {
+	local_factory_throughput = 0.5
+	local_RGO_throughput = 0.5
+	local_ruling_party_support = 0.2
+    icon = 15
 }
 
 puppet_rhineland = {
@@ -2323,12 +2348,27 @@ sakoku = {
     icon = 5
 }
 
+tenpo_famine = { 
+	farm_RGO_eff = -0.2
+	global_population_growth = -0.01 
+	global_pop_militancy_modifier = 0.01
+	icon = 18 
+} 
+
+
 rangaku = {
     prestige = 0.035
     research_points_modifier = 0.5
     global_pop_militancy_modifier = -0.05
     icon = 5
 }
+
+shinsengumi_policing = { 
+	pop_militancy_modifier = 0.05 
+	pop_consciousness_modifier = 0.05 
+	administrative_efficiency_modifier = 0.2
+	icon = 4
+} 
 
 ansei_purge = {
     prestige = 0.02
@@ -2341,8 +2381,16 @@ opened_port = {
 	pop_consciousness_modifier = 0.02
 	local_rgo_output = 0.2 
 	icon = 6
+}
+ 
+dentoudou = { 
+	prestige = 0.03 
+	global_pop_consciousness_modifier = -0.05
+	cb_generation_speed_modifier = -0.8
+	political_reform_desire = -0.2
+	social_reform_desire = -0.2
+	icon = 5
 } 
-
 
 
 kobu_gattai = {
@@ -2351,6 +2399,13 @@ kobu_gattai = {
     global_pop_militancy_modifier = -0.05
     icon = 5
 }
+
+protest_dances = { 
+	global_pop_consciousness_modifier = 0.05
+	global_pop_militancy_modifier = -0.05
+	administrative_efficiency_modifier = -0.2
+	icon = 19
+} 
 
 fukoku_kyohei = {
     prestige = 0.01
@@ -2377,6 +2432,10 @@ no_line_of_advantage = {
     icon = 15
 }
 
+aggression_against_russia = { 
+	icon = 15 
+}
+
 daimyo_draft = {
     mobilisation_size = 0.05
     war_exhaustion = -0.03
@@ -2391,6 +2450,14 @@ the_han_system = {
     max_social_spending = 0.50
     icon = 16
 }
+
+ikedaya_aftermath = { 
+	pop_militancy_modifier = 0.02
+	pop_consciousness_modifier = 0.02 
+	rgo_output = -0.1
+	factory_output = -0.1
+
+} 
 
 exploiting_the_land = {
     tax_efficiency = 0.25
@@ -4881,4 +4948,21 @@ startup_aor_small = {
 startup_aor_big = {
 	land_organisation = 0.1
 	icon = 15
+}
+
+parana_development = {
+    local_ship_build = -0.25
+	local_repair = 0.25
+    immigrant_attract = 0.2
+    population_growth = 0.001
+    farm_rgo_eff = 0.5
+	icon = 19
+}
+
+parana_development_forever = {
+    local_ship_build = -0.25
+	local_repair = 0.25
+    immigrant_attract = 0.3
+    farm_rgo_eff = 0.5
+	icon = 19
 }
