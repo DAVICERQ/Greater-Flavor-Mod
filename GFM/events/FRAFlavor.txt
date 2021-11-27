@@ -1783,15 +1783,11 @@ country_event = {
 		year = 1848
         exists = FRA
 		tag = FRA
-		AND = {
-			is_disarmed = no
-			NOT = { war_policy = pacifism }
-		}
+		is_disarmed = no
+		NOT = { war_policy = pacifism }
 		exists = HAW
-		AND = {
-			HAW = { owns = 658 }
-			HAW = { war = no }
-		}
+		HAW = { owns = 658 }
+		HAW = { war = no }
     }
 
     mean_time_to_happen = { months = 6 }
@@ -1882,7 +1878,7 @@ country_event = {
 #Founding of the Félibritge Movement
 country_event = {
     id = 18481983
-    title = "The Félibritge Movement"
+    title = "EVTNAME18481983"
     desc = "EVTDESC18481983"
     picture = "felibritge_occitania"
 
@@ -1894,7 +1890,7 @@ country_event = {
 		NOT = { tag = OCC }
     }
 
-    mean_tme_to_happen = { months = 6 }
+    mean_time_to_happen = { months = 6 }
 
 
     option = {
@@ -1928,7 +1924,7 @@ country_event = {
 #Frédéric Mistral is nominated a Nobel Prize on Literature
 country_event = {
     id = 18481982
-    title = "Frédéric Mistral received the 1904 Nobel Prize in Literature"
+    title = "EVTNAME18481982"
     desc = "EVTDESC18481982"
     picture = "frederic_mistral"
 
@@ -1940,7 +1936,7 @@ country_event = {
 		NOT = { tag = OCC }
     }
 
-    mean_tme_to_happen = { months = 6 }
+    mean_time_to_happen = { months = 6 }
 
 
     option = {
