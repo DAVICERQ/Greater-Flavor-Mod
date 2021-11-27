@@ -5008,6 +5008,6 @@ country_event = {
 		name = "Excellent."
 		prestige = 5
 		300 = { infrastructure = 1 }
-		any_pop = { limit = { location = { province_id = 300 } } consciousness = 1 militancy = -1 }
+		any_pop = { limit = { location = { province_id = 300 } } consciousness = 1 }
 	}
 }
