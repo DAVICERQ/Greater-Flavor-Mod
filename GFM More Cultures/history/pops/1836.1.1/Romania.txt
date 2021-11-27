@@ -1612,7 +1612,7 @@
     serfs = {
         culture = romanian
         religion = orthodox
-        size = 18995
+        size = 19770
     }
 
     serfs = {
@@ -1679,12 +1679,6 @@
         culture = hungarian
         religion = protestant
         size = 282
-    }
-	
-	farmers = {
-        culture = hutsul
-        religion = orthodox
-        size = 675
     }
 
     aristocrats = {
@@ -1904,7 +1898,7 @@
     farmers = {
         culture = romanian
         religion = orthodox
-        size = 27660
+        size = 28885
     }
 
     serfs = {
@@ -2013,12 +2007,6 @@
         culture = gypsy
         religion = orthodox
         size = 685
-    }
-	
-	farmers = {
-        culture = hutsul
-        religion = orthodox
-        size = 1225
     }
 
     clergymen = {

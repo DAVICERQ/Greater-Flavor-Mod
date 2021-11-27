@@ -1351,7 +1351,7 @@
     farmers = {
         culture = hungarian
         religion = protestant
-        size = 24105
+        size = 24125
     }
 
     clergymen = {
@@ -1375,7 +1375,7 @@
     farmers = {
         culture = ashkenazi
         religion = jewish
-        size = 1305
+        size = 1325
     }
 
     clergymen = {
@@ -1399,31 +1399,7 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 6000
-    }
-	
-	clergymen = {
-        culture = boyko
-        religion = orthodox
-        size = 10
-    }
-
-    artisans = {
-        culture = boyko
-        religion = orthodox
-        size = 20
-    }
-
-    soldiers = {
-        culture = boyko
-        religion = orthodox
-        size = 10
-    }
-
-    serfs = {
-        culture = boyko
-        religion = orthodox
-        size = 600
+        size = 6600
     }
 }
 #Partium Region (1112000) #See Romania.txt for balance of region

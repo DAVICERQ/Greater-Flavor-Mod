@@ -1455,46 +1455,6 @@ east_slavic = {
         }
         radicalism = 10
     }
-	lemko = {
-        color = {181 158 253}
-            first_names = { Ahaphia Aquilina Artim Basilius Demjan Ewa Fedor Hricz
-                            Imrich Lajos Jury Lavr Leonid Leu Nikolaj Paval Piotr Roman Ryhor
-                            Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
-
-            last_names = { Almashiy Boldyzhar Bulyna Burak Dovganych Fanta Fedynets Feyer Hetzko
-                            Hodmash Hutenyuk Ivanyk Kerezhan Kryvskyi Kotlyar Letsovych Lutak Makara Mygalyna Mykula
-                            Onysko Paliychuk Panchokh Pryashov Sharga Sydor Talabishka Turyn Ustych Vakula }
-    }
-	hutsul = {
-        color = {32 32 253}
-            first_names = { Ahaphia Aquilina Artim Basilius Demjan Ewa Fedor Hricz
-                            Imrich Lajos Jury Lavr Leonid Leu Nikolaj Paval Piotr Roman Ryhor
-                            Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
-
-            last_names = { Almashiy Boldyzhar Bulyna Burak Dovganych Fanta Fedynets Feyer Hetzko
-                            Hodmash Hutenyuk Ivanyk Kerezhan Kryvskyi Kotlyar Letsovych Lutak Makara Mygalyna Mykula
-                            Onysko Paliychuk Panchokh Pryashov Sharga Sydor Talabishka Turyn Ustych Vakula }
-    }
-	dolinyan = {
-        color = {132 32 232}
-            first_names = { Ahaphia Aquilina Artim Basilius Demjan Ewa Fedor Hricz
-                            Imrich Lajos Jury Lavr Leonid Leu Nikolaj Paval Piotr Roman Ryhor
-                            Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
-
-            last_names = { Almashiy Boldyzhar Bulyna Burak Dovganych Fanta Fedynets Feyer Hetzko
-                            Hodmash Hutenyuk Ivanyk Kerezhan Kryvskyi Kotlyar Letsovych Lutak Makara Mygalyna Mykula
-                            Onysko Paliychuk Panchokh Pryashov Sharga Sydor Talabishka Turyn Ustych Vakula }
-    }
-	boyko = {
-        color = {100 81 10}
-            first_names = { Ahaphia Aquilina Artim Basilius Demjan Ewa Fedor Hricz
-                            Imrich Lajos Jury Lavr Leonid Leu Nikolaj Paval Piotr Roman Ryhor
-                            Stanislaw Sergey Valery Vasily Viktar Uladzimir Vladislav }
-
-            last_names = { Almashiy Boldyzhar Bulyna Burak Dovganych Fanta Fedynets Feyer Hetzko
-                            Hodmash Hutenyuk Ivanyk Kerezhan Kryvskyi Kotlyar Letsovych Lutak Makara Mygalyna Mykula
-                            Onysko Paliychuk Panchokh Pryashov Sharga Sydor Talabishka Turyn Ustych Vakula }
-    }
 }
 
 baltic = {

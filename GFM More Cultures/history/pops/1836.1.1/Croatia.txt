@@ -922,25 +922,25 @@
     }
 		
 	clergymen = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 30
     }
 
     artisans = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 90
     }
 
     soldiers = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 110
     }
 
     serfs = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 1960
     }
@@ -1415,25 +1415,25 @@
     }
 		
 	clergymen = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 30
     }
 
     artisans = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 10
     }
 
     soldiers = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 20
     }
 
     serfs = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 260
     }
@@ -1574,25 +1574,25 @@
     }
 		
 	clergymen = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 30
     }
 
     artisans = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 10
     }
 
     soldiers = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 20
     }
 
     serfs = {
-        culture = lemko
+        culture = ukrainian
         religion = orthodox
         size = 160
     }

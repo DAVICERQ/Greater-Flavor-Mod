@@ -497,7 +497,7 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 24760
+        size = 26000
     }
 
     clergymen = {
@@ -583,30 +583,6 @@
         religion = catholic
         size = 900
     }
-	
-	clergymen = {
-        culture = boyko
-        religion = orthodox
-        size = 10
-    }
-
-    artisans = {
-        culture = boyko
-        religion = orthodox
-        size = 20
-    }
-
-    soldiers = {
-        culture = boyko
-        religion = orthodox
-        size = 10
-    }
-
-    serfs = {
-        culture = boyko
-        religion = orthodox
-        size = 1200
-    }
 }
 #Felvidek Region (860000) #see Hungary.txt and Ukraine.txt for balance of Region
 #under the rule of Austria in 1836
@@ -651,7 +627,7 @@
     farmers = {
         culture = slovak
         religion = catholic
-        size = 26775
+        size = 29875
     }
 
     aristocrats = {
@@ -693,7 +669,7 @@
     farmers = {
         culture = hungarian
         religion = catholic
-        size = 17166
+        size = 19166
     }
 
     clergymen = {
@@ -717,31 +693,7 @@
     farmers = {
         culture = hungarian
         religion = protestant
-        size = 18762
-    }
-	
-	clergymen = {
-        culture = boyko
-        religion = orthodox
-        size = 100
-    }
-
-    artisans = {
-        culture = boyko
-        religion = orthodox
-        size = 200
-    }
-
-    soldiers = {
-        culture = boyko
-        religion = orthodox
-        size = 100
-    }
-
-    serfs = {
-        culture = boyko
-        religion = orthodox
-        size = 5600
+        size = 19762
     }
 
     clergymen = {
@@ -851,25 +803,25 @@
     serfs = {
         culture = slovak
         religion = catholic
-        size = 4625
+        size = 5625
     }
 
     farmers = {
         culture = slovak
         religion = catholic
-        size = 8900
+        size = 14900
     }
 
     farmers = {
         culture = goral
         religion = catholic
-        size = 3000
+        size = 7000
     }
 
     aristocrats = {
         culture = hungarian
         religion = catholic
-        size = 800
+        size = 1000
     }
 
     clergymen = {
@@ -897,50 +849,26 @@
     }
 
     clergymen = {
-        culture = boyko
+        culture = ukrainian
         religion = orthodox
         size = 100
     }
 
     artisans = {
-        culture = boyko
+        culture = ukrainian
         religion = orthodox
         size = 200
     }
 
     soldiers = {
-        culture = boyko
+        culture = ukrainian
         religion = orthodox
         size = 100
     }
 
     serfs = {
-        culture = boyko
+        culture = ukrainian
         religion = orthodox
-        size = 2000
-    }
-	
-	clergymen = {
-        culture = boyko
-        religion = orthodox
-        size = 100
-    }
-
-    artisans = {
-        culture = boyko
-        religion = orthodox
-        size = 200
-    }
-
-    soldiers = {
-        culture = boyko
-        religion = orthodox
-        size = 100
-    }
-
-    serfs = {
-        culture = lemko
-        religion = orthodox
-        size = 11200
+        size = 4000
     }
 }
