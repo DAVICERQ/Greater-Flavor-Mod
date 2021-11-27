@@ -669,36 +669,5 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
-	
-	thames_tunnel_inauguration = {
-        picture = thames_tunnel
-        potential = {
-            owns = 300
-			year = 1843
-			NOT = { has_global_flag = thames_tunnel_inaugurated }
-        }
-
-        allow = {
-            war = no
-            money = 20000
-        }
-
-        effect = {
-            set_global_flag = thames_tunnel_inauguration
-			money = -20000
-			prestige = 6
-			300 = { infrastructure = 1 }
-			any_pop = {
-                limit = {
-                    location = {
-						province_id = 300
-					}
-                }
-                consciousness = -1
-            }
-        }
-
-        ai_will_do = { factor = 1 }
-    }
 
 }
