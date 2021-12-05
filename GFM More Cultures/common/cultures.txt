@@ -2582,6 +2582,17 @@ arab = {
             }
         radicalism = 10
     }
+	riffian = {
+        color = {240 64 43}
+        first_names = {
+            Ahmed "Abd al-Karim" Khalid Muhammad Mustafa
+            }
+
+        last_names = {
+            "al-Jazuli" Belkadi Mukrani "al-Rifi" "al-Sahrawi" "al-Shawiyyati" "al-Shiluhi" "al-Zanatawi"
+            }
+        radicalism = 10
+    }
     maures = {
         color = {252 125 78}
         first_names = { Abbas Malamah Abu "Ibn Muhammad" Tariq Farraj Galib Hajib Amira Asim Hasan Hayyan Jalaf Mansur Maymun Mujahid Mutarrif Nasr Tabit Tamim Ubada Ufayr Umar Wasil Yazid Yunus Zuhayr
