@@ -149,33 +149,195 @@
 #Vigan (608000/152000 POPS)
 1456 = {
     aristocrats = {
-        culture = filipino
+        culture = ilocano
         religion = catholic
         size = 1100
     }
 
     clergymen = {
-        culture = filipino
+        culture = ilocano
         religion = catholic
         size = 625
     }
 
     artisans = {
-        culture = filipino
+        culture = ilocano
         religion = catholic
         size = 7350
     }
 
     soldiers = {
-        culture = filipino
+        culture = ilocano
         religion = catholic
         size = 1500
     }
 
     farmers = {
-        culture = filipino
+        culture = ilocano
         religion = catholic
-        size = 92025
+        size = 59025
+    }
+	
+	farmers = {
+        culture = imandaya_isnag
+        religion = catholic
+        size = 525
+    }
+	
+	farmers = {
+        culture = imallod_isneg
+		religion = catholic
+        size = 340
+    }
+	
+	farmers = {
+        culture = itneg
+        religion = catholic
+        size = 3515
+    }
+	
+	farmers = {
+        culture = kalinga
+        religion = catholic
+        size = 6700
+    }
+	
+	farmers = {
+        culture = balangao
+        religion = catholic
+        size = 130
+    }
+	
+	farmers = {
+        culture = finallig
+        religion = catholic
+        size = 56
+    }
+	
+	farmers = {
+        culture = kankanaey
+        religion = catholic
+        size = 1515
+    }
+	
+	farmers = {
+        culture = ifugao
+        religion = catholic
+        size = 5985
+    }
+	
+	farmers = {
+        culture = kallahan
+        religion = catholic
+        size = 185
+    }
+	
+	farmers = {
+        culture = karao
+        religion = catholic
+        size = 185
+    }
+	
+	farmers = {
+        culture = gaddang
+        religion = catholic
+        size = 525
+    }
+	
+	farmers = {
+        culture = ibaloi
+        religion = catholic
+        size = 563
+    }
+	
+	farmers = {
+        culture = iwaak
+        religion = catholic
+        size = 45
+    }
+	
+	farmers = {
+        culture = isinai
+        religion = catholic
+        size = 450
+    }
+	
+	farmers = {
+        culture = ilongot
+        religion = catholic
+        size = 4500
+    }
+	
+	farmers = {
+        culture = arta
+        religion = catholic
+        size = 230
+    }
+	
+	farmers = {
+        culture = yogad
+        religion = catholic
+        size = 95
+    }
+	
+	farmers = {
+        culture = ibanag
+        religion = catholic
+        size = 1300
+    }
+	
+	farmers = {
+        culture = agta
+        religion = catholic
+        size = 8600
+    }
+	
+	farmers = {
+        culture = atta
+        religion = catholic
+        size = 3400
+    }
+	
+	farmers = {
+        culture = dumagat
+        religion = catholic
+        size = 10300
+    }
+	
+	farmers = {
+        culture = kasiguranin
+        religion = catholic
+        size = 560
+    }
+	
+	farmers = {
+        culture = ivatan
+        religion = catholic
+        size = 1200
+    }
+	
+	farmers = {
+        culture = pangansinese
+        religion = catholic
+        size = 200
+    }
+	
+	farmers = {
+        culture = sambal
+        religion = catholic
+        size = 45
+    }
+	
+	farmers = {
+        culture = itawit
+        religion = catholic
+        size = 4500
+    }
+	
+	farmers = {
+        culture = paranan
+        religion = catholic
+        size = 575
     }
 	
 	farmers = {
@@ -193,38 +355,9 @@
 	farmers = {
         culture = lannang_oe
         religion = catholic
-        size = 15000
+        size = 9000
     }
 
-    slaves = {
-        culture = filipino
-        religion = catholic
-        size = 20000
-    }
-
-    clergymen = {
-        culture = asian_minor
-        religion = catholic
-        size = 50
-    }
-
-    artisans = {
-        culture = asian_minor
-        religion = catholic
-        size = 250
-    }
-
-    soldiers = {
-        culture = asian_minor
-        religion = catholic
-        size = 50
-    }
-
-    farmers = {
-        culture = asian_minor
-        religion = catholic
-        size = 6650
-    }
 }
 #Legazpi (564000/141000 POPS)
 1457 = {
